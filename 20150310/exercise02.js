@@ -1,7 +1,7 @@
 var es02a = function(n) {
 	var result = [];
 	while (--n){
-		var random = Math.random();
+		var random = Math.ceil(Math.random());
 		result.unshift(random);
 	}
 	return result
